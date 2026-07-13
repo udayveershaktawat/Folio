@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.doc-content h1 { font-size: 1.5rem; font-weight: 600; margin: 1.1rem 0 0.6rem; }
+.doc-content h2 { font-size: 1.25rem; font-weight: 600; margin: 1rem 0 0.5rem; }
+.doc-content h3 { font-size: 1.1rem; font-weight: 600; margin: 0.9rem 0 0.4rem; }
+.doc-content p { margin: 0.6rem 0; line-height: 1.65; }
+.doc-content ul, .doc-content ol { margin: 0.6rem 0; padding-left: 1.4rem; }
+.doc-content li { margin: 0.25rem 0; }
+.doc-content strong { font-weight: 600; }
+.doc-content table { border-collapse: collapse; margin: 0.8rem 0; width: 100%; }
+.doc-content td, .doc-content th { border: 1px solid #DBD8CF; padding: 6px 10px; text-align: left; }
+.doc-content img { max-width: 100%; height: auto; margin: 0.6rem 0; }
